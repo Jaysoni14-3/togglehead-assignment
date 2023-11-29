@@ -1,0 +1,81 @@
+.upcoming-examinations {
+  padding: 84px 140px;
+  background-color: var(--white-color);
+}
+
+.top-section {
+  display: flex;
+  align-items: top;
+  gap: 24px;
+}
+
+.section-header {
+  max-width: 254px;
+}
+
+.section-header h2 {
+  color: var(--primary-color);
+}
+
+.section-header p {
+  color: #525252;
+}
+
+.upcoming-examinations .section-body {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: start;
+  gap: 40px;
+  width: 100%;
+}
+
+.upcoming-examinations .section-body .card {
+  display: flex;
+  gap: 20px;
+}
+
+.upcoming-examinations .section-body .icon {
+  width: 53px;
+  height: 55px;
+}
+
+.upcoming-examinations .section-body .text-container h5 {
+  color: var(--primary-color);
+  font-size: 24px;
+}
+
+.upcoming-examinations .section-body .text-container p {
+  font-size: 18px;
+  color: #525252;
+}
+
+.additional-info {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 1400px) {
+  .upcoming-examinations {
+    padding: 84px 70px;
+  }
+}
+
+@media screen and (max-width: 1220px) {
+  .upcoming-examinations {
+    padding: 84px 24px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .top-section {
+    flex-direction: column;
+  }
+
+  .section-header {
+    width: 100%;
+  }
+
+  .upcoming-examinations .section-body {
+    flex-direction: column;
+  }
+}

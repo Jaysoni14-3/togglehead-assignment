@@ -1,0 +1,72 @@
+.bottom-section {
+  margin-left: 140px;
+}
+
+.bottom-section .card {
+  position: relative;
+  border-radius: 24px;
+  overflow: hidden;
+}
+
+.bottom-section .card .card-bg {
+  position: absolute;
+  inset: 0;
+  height: 283px;
+  min-width: 320px;
+  max-width: 520px;
+}
+
+.bottom-section .card .text-container {
+  position: relative;
+  z-index: 100;
+  color: white;
+  padding: 27px 50px;
+}
+
+.bottom-section .card .text-container h4 {
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.bottom-section .card .text-container p {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+
+.bottom-section .card .text-container button {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  font-size: 18px;
+  font-weight: regular;
+  marin-bottom: 38px;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  color: white;
+}
+
+.bottom-section .card .text-container button img {
+  width: 28px;
+  height: 28px;
+}
+
+.examination-swiper {
+  user-select: none;
+}
+
+@media screen and (max-width: 1400px) {
+  .bottom-section {
+    margin-left: 70px;
+  }
+}
+
+@media screen and (max-width: 1220px) {
+  .bottom-section {
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+}

@@ -1,0 +1,57 @@
+Assignment Test by Togglehead
+
+--> Design Link: https://xd.adobe.com/view/f151a56e-d282-4f7d-b4cc-f33e838d7bec-a402/
+
+Important Development Notes :
+
+-> Carousel Functionality: Please implement the carousel functionality using
+Swiper.js. Your ability to integrate third-party libraries is part of this
+test.
+
+-> CSS Units: We recommend the use of em/rem units in CSS for better
+scalability and responsiveness. This practice is optional but valued.
+
+-> Mobile Responsiveness: It's imperative that the webpage is
+mobile-responsive. This is a crucial aspect of modern web development that
+we'll be evaluating.
+
+-> Top Carousel Section:
+For this section, ensure users can interact seamlessly with the carousel by
+using navigation dots. Additionally, enable an autoplay feature to make it
+engaging.
+
+-> Card Slider:
+The card slider should offer a smooth user experience. Users should be able
+to drag the slider using both mouse and touch gestures.
+
+-> Statistics Section:
+Bring the statistics to life by incorporating a counting or ticker
+animation. Numbers should animate from 0 to the desired values.
+
+-> FAQ Section:
+Users should have a user-friendly experience accessing answers. By clicking
+the plus icon next to a question, only one answer should be visible at a
+time.
+
+share on the provided email- shivani@togglehead.in.
+Please cc Hr@togglehead.in as well.
+
+
+
+<div className="hero-wrapper">
+      <div className="text-container">
+        <h1 className="hero-header">Lorem ipsum</h1>
+        <p className="hero-body-text">
+          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+          nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+          sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
+          rebum. Stet clita kasd
+        </p>
+        <button className="button hero-button">
+          Know more <img src={buttonIcon} alt="arrow-down" />
+        </button>
+      </div>
+      <div className="img-container">
+        <img src={heroImage} alt="hero-image" />
+      </div>
+    </div>

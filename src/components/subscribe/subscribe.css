@@ -1,0 +1,89 @@
+.subscribe-section {
+  display: flex;
+  gap: 24px;
+  padding: 70px 140px;
+  padding-bottom: 0;
+}
+
+.subscribe-section .text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  max-width: 570px;
+}
+
+.subscribe-section .text-container h2 {
+  color: var(--primary-color);
+  font-size: 40px;
+}
+
+.subscribe-section .text-container p {
+  color: #525252;
+  font-size: 20px;
+}
+
+.subscribe-section .input-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  align-items: center;
+  gap: 21px;
+}
+
+.subscribe-section .input-container input {
+  padding: 15px;
+  font-size: 18px;
+  border-radius: 10px;
+  border: 0;
+  outline: 0;
+  box-shadow: 0px 0px 6px #00000029;
+  flex: 1;
+}
+
+.subscribe-section .subscribe-button {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  white-space: no-wrap;
+  background: var(--primary-color);
+  cursor: pointer;
+  color: var(--white-color);
+}
+
+.subscribe-section .subscribe-button img {
+  width: 13px;
+  height: 15px;
+}
+
+.subscribe-section .img-container img {
+  height: 364px;
+  width: 100%;
+  object-fit: cover;
+  max-width: 718px;
+}
+
+@media screen and (max-width: 1400px) {
+  .subscribe-section {
+    padding: 70px;
+  }
+}
+
+@media screen and (max-width: 1220px) {
+  .subscribe-section {
+    padding-inline: 24px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .subscribe-section {
+    flex-direction: column-reverse;
+  }
+
+  .subscribe-section .text-container {
+    max-width: 100%;
+  }
+  .subscribe-section .img-container img {
+    height: auto;
+  }
+}

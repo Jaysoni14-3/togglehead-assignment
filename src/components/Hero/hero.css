@@ -1,0 +1,121 @@
+.hero-section {
+  margin: 0 auto;
+}
+
+.hero-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  position: relative;
+  background-image: linear-gradient(270deg, #ebebeb, #f8f8f8);
+}
+
+.hero-wrapper .text-container {
+  margin-left: 140px;
+  margin-block: auto;
+  display: flex;
+  flex-direction: column;
+  max-width: 544px;
+  gap: 22px;
+  flex: 1;
+}
+
+.hero-body-text {
+  color: #525252;
+}
+
+.hero-button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  width: max-content;
+}
+
+.hero-button img {
+  width: 13px;
+  height: 15px;
+}
+
+.hero-wrapper .img-container {
+  margin-left: auto;
+  max-width: 786px;
+  height: 519px;
+  flex: 2;
+}
+
+.hero-wrapper .img-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero-section .swiper {
+  width: 100%;
+  height: 520px;
+}
+
+.hero-section .swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-section .swiper-pagination {
+  background: transparent;
+  padding: 2px;
+}
+
+.hero-section .swiper-pagination-bullet {
+  background: #fff !important;
+}
+
+.hero-section .swiper-pagination-bullet-active {
+  width: 6px !important;
+
+  height: 30px !important;
+  border-radius: 4px !important;
+}
+
+@media screen and (max-width: 1400px) {
+  .hero-wrapper .text-container {
+    margin-left: 70px;
+  }
+}
+
+@media screen and (max-width: 1220px) {
+  .hero-wrapper .text-container {
+    margin-left: 24px;
+  }
+}
+
+/*screen till 768px */
+@media screen and (max-width: 768px) {
+  .hero-wrapper {
+    flex-direction: column-reverse;
+    align-items: start;
+    height: 100%;
+    gap: 0;
+  }
+
+  .hero-wrapper .text-container {
+    margin-left: 24px;
+    margin-right: 24px;
+    flex: 1;
+  }
+
+  .hero-wrapper .img-container {
+    width: 100%;
+    flex: 1;
+  }
+
+  .hero-wrapper .img-container img {
+    height: 230px;
+  }
+
+  .swiper-pagination {
+    background: rgba(0, 0, 0, 0.4);
+    padding: 2px;
+  }
+}

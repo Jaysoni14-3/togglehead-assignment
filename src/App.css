@@ -1,0 +1,15 @@
+.button {
+  padding: 18px 38px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 16px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1024px) {
+  .button {
+    padding: 18px 24px;
+  }
+}

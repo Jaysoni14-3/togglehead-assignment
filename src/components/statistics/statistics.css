@@ -1,0 +1,56 @@
+.statistics-section {
+  background-color: #f6f6f6;
+  padding: 70px 140px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.statistics-section .stats-card {
+  color: var(--primary-color);
+}
+
+.statistics-section .stats-card span {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.statistics-section .stats-card h2,
+.statistics-section .stats-card h2 span {
+  font-size: 80px;
+}
+
+.statistics-section .stats-card h5 {
+  font-size: 26px;
+  margin-bottom: 15px;
+}
+
+.statistics-section .stats-card p {
+  font-size: 20px;
+}
+
+@media screen and (max-width: 1400px) {
+  .statistics-section {
+    padding: 70px;
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media screen and (max-width: 1220px) {
+  .statistics-section {
+    padding: 70px 24px;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .statistics-section {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 480px) {
+  .statistics-section {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 40px;
+  }
+}
